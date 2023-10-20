@@ -1,4 +1,4 @@
-import 'package:dmi_practica11_200070/media.detail.dart';
+import 'package:dmi_practica11_200070/media_detail.dart';
 import 'package:flutter/material.dart';
 // import 'package:dmi_practica11_200070/common/HttpHandler.dart';
 import 'package:dmi_practica11_200070/model/Media.dart';
