@@ -40,22 +40,25 @@ class _MediaListState extends State<MediaList> {
     });
   }
 
-  @override
+@override
   Widget build(BuildContext context) {
     return Container(
       child: ListView.builder(
         itemCount: _media.length,
         itemBuilder: (BuildContext context, int index) {
-          return ElevatedButton(
-            child: MediaListItem(_media[index]),
-            onPressed: (){
-              Navigator.push(context, MaterialPageRoute(builder: (context){
-                return MediaDetail(_media[index]);
-              }));
-            }
+          return Container(
+            margin: const EdgeInsets.all(8), // Establece el margen aquí
+            child: ElevatedButton(
+              onPressed: () {
+                Navigator.push(context, MaterialPageRoute(builder: (context) {
+                  return MediaDetail(_media[index]);
+                }));
+              },
+              child: MediaListItem(_media[index]),
+            ),
           );
         },
       ),
     );
   }
-}
+  }
