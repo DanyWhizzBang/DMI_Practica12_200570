@@ -16,7 +16,7 @@ Práctica 12: Implementacion de un paginador para mostrar el resultado de polula
  <br><br>
 Descripción: Continuamos con la aplicación, en esta parte agregamos archivos, con los cuales obtuvimos que salieran carteleras distintas dependiendo el paginador, ambas muestran información distinta. Es una aplicación desarrollada en Flutter y es una app centrada en la visualización de peliculas y series populares. Permite a los usuarios acceder a una amplia gama de series televisivas y explorar contenido variado y actualizado. Con una interfaz amigable e intuitiva, los usuarios pueden descubrir información relevante sobre cada serie, incluyendo su título, calificación promedio, sinopsis, fecha de lanzamiento y géneros asociados. Además, la aplicación ofrece la posibilidad de ver los pósters de las series para obtener una vista previa visual. Al brindar acceso rápido a estas series populares, la app se convierte en un hub digital para entusiastas del entretenimiento, facilitando la elección de series para ver y mantenerse al día con las últimas tendencias.
 <br><br>
-Fecha entrega: 19 de octubre del 2023
+Fecha entrega: 20 de octubre del 2023
 </div>
 
 <br>
